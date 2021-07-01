@@ -1,2 +1,2 @@
 # RapidView
-A framework agnostic javascript plugin for creating quick a customized slider with any data accompanied
+A framework agnostic javascript plugin for creating quick a lightweight customized slider with any data accompanied
