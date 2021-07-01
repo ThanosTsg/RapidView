@@ -1,0 +1,35 @@
+#groups_master{
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+overflow: hidden;
+transition: all .3s ease;
+opacity:0;
+}
+
+#next_question,#prev_question {margin: 0px 6px 0px 0px;}
+ 
+#next_question.hide_btn,#prev_question.hide_btn{ display:none; }
+
+.group_section { overflow: hidden; transition:all .3s ease;}
+
+.group_item{
+    border-radius: 8px;
+    box-shadow: none;
+    margin: 0px;
+}
+
+#nav_btn,.group_section h3,.group_section h5{ text-align:center; }
+
+.group_container{
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+transition:all .3s ease;
+}
+
+.group_item{
+    padding: 0px 6px;
+    box-shadow: 1px 3px 5px #00000026;
+}
+
