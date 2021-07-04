@@ -235,7 +235,13 @@ function RapidViewer(options){
 
 	this.init_setup();
 
+	let w = window.innerWidth;
+
 	window.addEventListener('resize', function(event) {
+
+		if(window.innerWidth !== w){ 
+		w = window.innerWidth;
+		
 		_this.removeAllAttr();
 
 		current_stigma = 0;
@@ -250,6 +256,8 @@ function RapidViewer(options){
 		giw = options.item_width * paired_items;
 		init_pos = (cw+(cw/2)) - (giw/2);
 		_this.init_setup();
+
+		}
 
 	}, true);
 
